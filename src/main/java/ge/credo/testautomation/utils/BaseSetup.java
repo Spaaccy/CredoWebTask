@@ -24,9 +24,7 @@ public class BaseSetup {
     private static final ThreadLocal<WebDriver> driver = new ThreadLocal<>();
     private static final ThreadLocal<WebDriverWait> wait = new ThreadLocal<>();
     private static final ThreadLocal<SoftAssert> softAssert = new ThreadLocal<>();
-    private static final List<String> BROWSER_ARGS = List.of(
-            CHROME_MAXIMIZED, CHROME_DISABLE_NOTIFICATIONS, CHROME_REMOTE_ALLOW_ORIGINS
-    );
+
     @Getter
     private static final RandomStringUtils randomStringUtils = RandomStringUtils.insecure();
 

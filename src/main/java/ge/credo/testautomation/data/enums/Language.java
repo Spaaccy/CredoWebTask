@@ -34,13 +34,14 @@ public enum Language {
             "Incorrect data"
     );
 
-    private final String languageName;
-    private final String loginHeader;
-    private final String forgotPassword;
-    private final String registerButton;
-    private final String submitButton;
-    private final String heroHeader;
-    private final String errorBar;
+    private final String
+            languageName,
+            loginHeader,
+            forgotPassword,
+            registerButton,
+            submitButton,
+            heroHeader,
+            errorBar;
 
     Language(String languageName, String loginHeaderText, String forgotPasswordText, String submitText, String registerText, String heroHeaderText, String errorBarText) {
         this.languageName = languageName;

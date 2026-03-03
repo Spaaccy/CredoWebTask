@@ -1,8 +1,10 @@
 package ge.credo.testautomation.data;
 
+import java.util.List;
+
 public final class Constants {
 
-    // URLs
+    // URLS
     public static final String
             BASE_URL = "https://mycredo.ge",
             LANDING_PAGE_URL = BASE_URL+"/landing/main/auth";
@@ -32,6 +34,10 @@ public final class Constants {
     public static final String
             JS_CLEAR_INPUT = "arguments[0].value=''; arguments[0].dispatchEvent(new Event('input'));";
 
+    // Browser arguments combined
+    public static final List<String> BROWSER_ARGS = List.of(
+            CHROME_MAXIMIZED, CHROME_DISABLE_NOTIFICATIONS, CHROME_REMOTE_ALLOW_ORIGINS
+    );
     private Constants() {
     }
 }

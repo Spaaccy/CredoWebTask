@@ -14,7 +14,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import static ge.credo.testautomation.data.Constants.*;
+import static ge.credo.testautomation.data.Constants.UI.ACTIVE_HEADER_TEXT_GEO;
+import static ge.credo.testautomation.data.Constants.Urls.LANDING_PAGE_URL;
 
 @Epic("Credo Bank Web")
 @Feature("Login Page")

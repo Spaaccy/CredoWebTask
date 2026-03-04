@@ -6,7 +6,7 @@ import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import static ge.credo.testautomation.data.Constants.ACTIVE_CLASS;
+import static ge.credo.testautomation.data.Constants.UI.ACTIVE_CLASS;
 import static ge.credo.testautomation.utils.BaseSetup.getSoftAssert;
 
 public class HeaderContainerSteps extends HeaderContainer {

@@ -6,7 +6,7 @@ import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import static ge.credo.testautomation.data.Constants.INPUT_TYPE_TEXT;
+import static ge.credo.testautomation.data.Constants.UI.INPUT_TYPE_TEXT;
 import static ge.credo.testautomation.utils.BaseSetup.getSoftAssert;
 import static ge.credo.testautomation.utils.BaseSetup.getWait;
 import static ge.credo.testautomation.utils.Helpers.*;

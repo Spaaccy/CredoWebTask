@@ -14,9 +14,9 @@ import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 
 import java.time.Duration;
-import java.util.List;
 
-import static ge.credo.testautomation.data.Constants.*;
+import static ge.credo.testautomation.data.Constants.Browser.*;
+import static ge.credo.testautomation.data.Constants.Timeouts.*;
 
 @Listeners({ScreenshotListener.class})
 public class BaseSetup {

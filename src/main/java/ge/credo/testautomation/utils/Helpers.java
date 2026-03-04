@@ -5,7 +5,8 @@ import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import static ge.credo.testautomation.data.Constants.*;
+import static ge.credo.testautomation.data.Constants.JavaScript.*;
+import static ge.credo.testautomation.data.Constants.Random.*;
 import static ge.credo.testautomation.utils.BaseSetup.*;
 
 public class Helpers {

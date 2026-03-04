@@ -12,6 +12,7 @@ public class LoginDataProvider {
     public Object[][] getTestData() {
         return new Object[][]{
                 {Language.SVAN, randomUserName(), randomPassword()},
+                {Language.GEO, randomUserName(), randomPassword()},
                 {Language.ENGLISH, randomUserName(), randomPassword()},
                 {Language.MEGRELIAN, randomUserName(), randomPassword()}
         };
